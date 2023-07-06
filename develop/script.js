@@ -64,3 +64,5 @@ function writePassword() {
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
+
+// I got help with this from a family member, but all code was written by me and I learned a lot through this project.
