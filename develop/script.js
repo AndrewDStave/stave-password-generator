@@ -5,7 +5,7 @@ var passwordText = document.querySelector("#password");
 function generatePassword() {
   var lowercaseChars = "abcdefghijklmnopqrstuvwxyz";
   var uppercaseChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-  var numericChars = "0123456789";
+  var numericChars = "1234567890";
   var specialChars = "!@$%^&*()_+[]{}|\~`:;<>,.?/=";
 
   var passwordLength = prompt("How many characters long would you like your password to be? (Between 9 and 128 characters)");
